@@ -1,0 +1,6 @@
+* text=auto
+*.md text eol=lf
+*.pdf binary
+evidencias/** -text
+infraestructura/** -text
+docker-compose.yml -text
