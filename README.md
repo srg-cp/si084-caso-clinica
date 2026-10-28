@@ -11,6 +11,7 @@ Este repositorio conserva la infraestructura original del caso y contiene el pla
 - `evidencias/SHA256SUMS.txt`: sellos de integridad verificables con `sha256sum -c evidencias/SHA256SUMS.txt` desde esta carpeta.
 - Etiqueta `examen-u2`, que identifica la entrega.
 - PDF `SI084-EXPRAC-U2-ColquePonceSergio.pdf` para subir manualmente al aula virtual.
+- Word editable `SI084-EXPRAC-U2-ColquePonceSergio.docx`, cumplimentado sobre la plantilla original `PLAN.docx`, con su carátula, escudos, cabecera y pie. El PDF actual se exportó directamente de este Word. Ambos están en la rama `main`; la etiqueta original `examen-u2` conserva el reconocimiento y sus evidencias.
 
 ## Levantar los servicios y mostrarlos al docente
 
@@ -46,7 +47,7 @@ Lea y revise personalmente el plan antes de presentarlo: el enunciado penaliza e
 
 - E8 pide consultar 443, pero el alcance escrito solo autoriza 8080-8090. No se ejecutó 443; consta como pendiente, sin inventar HTTP 000.
 - El texto indica duración de 40 minutos y después vencimiento a los 100 minutos. Confirme el plazo de la sesión.
-- PLAN.docx pide narrativa en tercera persona/futuro, con pasos imperativos. El enunciado exige entregar PLAN.md y PDF; se conserva la estructura numerada del Markdown con el contenido solicitado en Word.
+- PLAN.docx pide narrativa en tercera persona/futuro, límites de palabras y pasos imperativos. El Word completado respeta la estructura II-VII y Anexo A de esa plantilla. Se mantienen además PLAN.md y las evidencias exigidas por el enunciado.
 
 ## Cerrar y restaurar el laboratorio anterior
 
